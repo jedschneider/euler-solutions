@@ -1,0 +1,18 @@
+h1. Euler Problems
+
+This is just my personal repository of Euler problems (projecteuler.net) and their solutions. 
+
+h2. Requirements
+
+* cucumber
+* rspec
+
+h2. Bootstrap
+
+@gem install cucucmber@
+@gem install rspec@
+
+
+h3. ruby
+run features with @cucumber@
+run spec with @spec spec@
