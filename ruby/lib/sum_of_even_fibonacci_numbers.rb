@@ -12,7 +12,7 @@ class SumOfEvenFibonacciNumbers
   def fibs(max_num)
     a,b = 1,2
     sequence = [a, b]
-    while b <= max_num
+    while b < max_num
       a,b = b, a+b
       sequence.push(b) 
     end
