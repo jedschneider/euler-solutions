@@ -15,7 +15,7 @@ class MaxPrimeFactor
   end
   
   def make_list
-    Array.new(last_prime**(2) - starting_point){|i| starting_point+i }
+    Array.new(end_point - starting_point){|i| starting_point+i }
   end
 
   def ceiling
