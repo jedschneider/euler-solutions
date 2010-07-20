@@ -4,6 +4,8 @@ This is just my personal repository of Euler problems (projecteuler.net) and the
 
 h2. Requirements
 
+* ruby (tested on 1.8.7p299)
+* rubygems 1.3.6+
 * cucumber
 * rspec
 
@@ -15,4 +17,5 @@ h2. Bootstrap
 
 h3. ruby
 run features with @cucumber@
+slow running features tagged with @slow
 run spec with @spec spec@
