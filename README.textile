@@ -17,5 +17,6 @@ h2. Bootstrap
 
 h3. ruby
 run features with @cucumber@
-slow running features tagged with @slow
+slow running features tagged with slow
+
 run spec with @spec spec@
