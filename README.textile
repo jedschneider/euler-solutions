@@ -10,6 +10,9 @@ h2. Requirements
 ** cucumber
 ** rspec
 
+* clojure
+** "leiningen":http://github.com/technomancy/leiningen
+
 h2. Bootstrap
 
 @gem install cucucmber@
@@ -25,8 +28,14 @@ run spec with @spec spec@
 
 h3. clojure
 
-the clojure project is managed with leinengen with clojure/euler being the root of the project
+the clojure project is managed with leiningen with clojure/euler being the root of the project
 
-assuming leinengen is installed run tests with
+assuming leiningen is installed 
 
-@lein rake@
+install dependencies with
+
+@lein deps@
+
+run tests with
+
+@lein test@
