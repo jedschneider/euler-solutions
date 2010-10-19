@@ -12,3 +12,4 @@ Feature: Problem 4
     
       | max_number | largest_product |
       | 99         | 9009            |
+      | 999        | 906609          |
